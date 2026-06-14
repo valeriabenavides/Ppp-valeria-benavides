@@ -1,0 +1,29 @@
+*1. Qué información muestra cada comando*
+
+*`ls`*  
+Lista los archivos y carpetas que hay en la carpeta actual.  
+Ejemplo: `seguridad  semana 8  readme.txt`  
+Útil para ver el nombre exacto, porque Linux distingue mayúsculas y espacios.
+
+*`cd "semana 8"`*  
+`cd` = change directory. Te mueve dentro de la carpeta que le indiques.  
+No muestra nada si funciona. Solo cambia tu ubicación.
+
+*`pwd`*  
+Muestra tu ruta actual completa.  
+Ejemplo: `/home/usuario/cursos/semana 8`  
+Sirve para saber "dónde estás parado" antes de moverte.
+
+*`cd ..`*  
+Sube un nivel. De `/semana 8` te manda a `/cursos`.
+
+*2. Por qué es útil conocer info del sistema en un servidor*
+
+Administrar un servidor sin saber qué tiene es como manejar a ciegas:
+
+1. *Solucionar errores rápido*: Si un servicio no inicia, con `df -h` ves si el disco está lleno, con `top` ves si la RAM/CPU colapsó.
+2. *Seguridad*: Con `who` ves quién está conectado ahora mismo. Con `netstat` ves qué puertos están abiertos. Así detectas accesos raros.
+3. *Mantenimiento*: `uname -a` te dice versión del sistema. Así sabes qué actualizaciones aplicar sin romper nada.
+4. *Evitar dañar algo*: Antes de borrar, `ls` te confirma que estás en la carpeta correcta. Borrar en `/` por error tumba todo el servidor.
+
+En resumen: la info del sistema te da control. Sabes qué hay, qué está fallando y qué puedes tocar sin romper.
