@@ -1,0 +1,9 @@
+Que las comunidades puedan registrar y consultar reportes en una plataforma tecnológica es clave por varias razones:
+
+1. *Transparencia*: Todo queda documentado y visible. Se reduce el riesgo de que los problemas se pierdan o se ignoren.
+2. *Agilidad*: Reportar desde el celular acelera la respuesta. Las autoridades o líderes ven la incidencia en tiempo real.
+3. *Toma de decisiones*: Al consultar el historial, se detectan patrones. Así se priorizan soluciones donde más se necesitan.
+4. *Participación ciudadana*: La gente se siente escuchada y parte de la solución, no solo espectadora.
+5. *Trazabilidad*: Se puede hacer seguimiento al estado del reporte, desde que se crea hasta que se resuelve.
+
+En resumen, la tecnología convierte quejas sueltas en datos útiles para mejorar la comunidad.

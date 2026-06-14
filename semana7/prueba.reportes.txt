@@ -1,0 +1,20 @@
+Enviado {
+  "tipo": "Infraestructura",
+  "descripcion": "Daño en alumbrado público"
+}
+respuesta del servidor {
+  "mensaje": "Reporte creado correctamente",
+  "reporte": {
+    "id": 1,
+    "tipo": "Infraestructura",
+    "descripcion": "Daño en alumbrado público"
+  }
+}
+
+respuesta del servidor get [
+  {
+    "id": 1,
+    "tipo": "Infraestructura",
+    "descripcion": "Daño en alumbrado público"
+  }
+]
