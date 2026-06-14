@@ -1,0 +1,15 @@
+Cuando ejecuto node server.js:
+El servidor Node se inicia y queda escuchando en el puerto que definiste, normalmente 3000.
+
+
+API comunitaria corriendo en http://localhost:3000
+
+Qué sucede cuando visitas la ruta /estado:
+El servidor responde con un JSON que confirma que todo está activo.
+
+ respuesta /estado:
+
+{
+  "estado": "Servidor funcionando",
+  "servicio": "API comunitaria"
+}
