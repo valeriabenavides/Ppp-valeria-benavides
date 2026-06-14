@@ -1,0 +1,5 @@
+El servidor respondió confirmando que recibió correctamente la información enviada. La respuesta fue:{
+  "estado": "Datos recibidos",
+  "nombre": "Maria",
+  "mensaje": "Hola comunidad"
+}Esto indica que el servicio procesó la solicitud y devolvió los mismos datos enviados junto con un mensaje de confirmación en el campo "estado"

@@ -1,0 +1,5 @@
+El servidor recibe los datos enviados por el ciudadano (tipo de incidencia y descripción) mediante una petición POST. Luego responde con un objeto JSON confirmando que la incidencia fue registrada correctamente y devolviendo la misma información enviada repsuesta del servidor {
+  "mensaje": "Incidencia registrada",
+  "tipo": "Iluminación pública",
+  "descripcion": "La comunidad reporta que una lámpara del parque no funciona desde hace varios días."
+}
